@@ -1,0 +1,69 @@
+body{
+    background-color: lemonchiffon;
+}
+
+.container,
+h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+}
+h1 {
+  font-size: 3rem;
+  font-family: 'Pacifico', cursive;
+  color: blueviolet;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  color: limegreen;
+}
+
+button {
+  background: #b834d9;
+  background-image: -webkit-linear-gradient(top, #b834d9, #d772e0);
+  background-image: -moz-linear-gradient(top, #b834d9, #d772e0);
+  background-image: -ms-linear-gradient(top, #b834d9, #d772e0);
+  background-image: -o-linear-gradient(top, #b834d9, #d772e0);
+  background-image: linear-gradient(to bottom, #b834d9, #d772e0);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #fc3cbf;
+  background-image: -webkit-linear-gradient(top, #fc3cbf, #d93470);
+  background-image: -moz-linear-gradient(top, #fc3cbf, #d93470);
+  background-image: -ms-linear-gradient(top, #fc3cbf, #d93470);
+  background-image: -o-linear-gradient(top, #fc3cbf, #d93470);
+  background-image: linear-gradient(to bottom, #fc3cbf, #d93470);
+  text-decoration: none;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+img{
+    width: 80%;
+    height: 50%;
+    border-radius: 20px;
+    margin-top: 10%;
+    border: 10px solid magenta;
+    
+}
